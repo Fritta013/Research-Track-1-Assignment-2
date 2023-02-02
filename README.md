@@ -11,8 +11,10 @@ Installing and running
 Follow these instructions to correctly install and run this project 
 ### Dependencies ###
 This project was only tested and run on ROS NOETIC. For other versions of ROS, it is unsure if it will work perfectly. It will most likely present errors. Please feel to try and let me know. To install ros NOETIC on Ubuntu, follow the instructions [here](http://wiki.ros.org/noetic/Installation/Ubuntu). 
-To successfully run this project, you also need to have Gazebo and Rviz installed in your computer. Click on these links to install [Gazebo](https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros) and [Rviz](http://wiki.ros.org/rviz). 
-
+To successfully run this project, you also need to have Gazebo and Rviz installed in your computer. Click on these links to install [Gazebo](https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros) and [Rviz](http://wiki.ros.org/rviz). To download the code, you can either directly download from github or you can use the following command line: 
+```bash
+https://github.com/Fritta013/Research-Track-1-Assignment-2.git
+```
 
 ### Running from shell ###
 -----------------------------
