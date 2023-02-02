@@ -89,7 +89,7 @@ This ROS node is a service node that subscribes to the topic /reaching_goal/stat
 ```python
 if goal_status.status == GoalStatus.ACTIVE:
             rospy.loginfo("Goal is active")
-        elif goal_status.status == GoalStatus.SUCCEEDED: # The goal was achieved successfully by the action server (Terminal State)
+        elif goal_status.status == GoalStatus.SUCCEEDED: 
             rospy.loginfo("Goal succeeded")
             counter_success+=1
             print('number of goals success is %s', str(counter_success))
